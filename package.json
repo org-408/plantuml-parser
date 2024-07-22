@@ -1,5 +1,5 @@
 {
-  "name": "plantuml-parser",
+  "name": "@org-408/plantuml-parser",
   "version": "0.4.1",
   "description": "Parse PlantUML with JavaScript or TypeScript",
   "main": "dist/index.js",

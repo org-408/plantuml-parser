@@ -1,6 +1,6 @@
 {
   "name": "plantuml-parser",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Parse PlantUML with JavaScript or TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,6 +17,7 @@
     "read-vinyl-file-stream": "^2.0.3",
     "require-dir": "^1.2.0",
     "serialize-error": "^7.0.1",
+    "source-map": "^0.7.4",
     "yargs": "^16.0.3"
   },
   "devDependencies": {
@@ -61,17 +62,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Enteee/plantuml-parser.git"
+    "url": "git+https://github.com/Org-408/plantuml-parser.git"
   },
   "keywords": [
     "PlantUML"
   ],
-  "author": "Ente",
+  "author": "Org-408",
   "license": " Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Enteee/plantuml-parser/issues"
+    "url": "https://github.com/Org-408/plantuml-parser/issues"
   },
-  "homepage": "https://github.com/Enteee/plantuml-parser#readme",
+  "homepage": "https://github.com/Org-408/plantuml-parser#readme",
   "nyc": {
     "all": true,
     "sourceMap": true,
@@ -88,5 +89,8 @@
       "dist/plantuml-trace.js",
       "dist/bin/"
     ]
+  },
+  "directories": {
+    "test": "test"
   }
 }
